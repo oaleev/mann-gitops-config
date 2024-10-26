@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app-container
-        image: mannamnaveen/mann-gitops:14
+        image: manrala/flaskapp:1
         ports:
         - containerPort: 5000
 ---
@@ -32,4 +32,3 @@ spec:
     nodePort: 32000
   selector:
     app: flask-app
-
