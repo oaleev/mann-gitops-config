@@ -5,6 +5,7 @@ metadata:
   namespace: flask-app
 spec:
   replicas: 2
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: flask-app
