@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app-container
-        image: manrala/flaskapp:
+        image: manrala/flaskapp:build-11537350241
         ports:
         - containerPort: 5000
 ---
